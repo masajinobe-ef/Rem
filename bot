@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SESSION_NAME="Rem-pfx-bot"
+SESSION_NAME="rem-pfx-bot"
 
 if [[ "$1" == "--stop" ]]; then
     if screen -list | grep -q "$SESSION_NAME"; then
